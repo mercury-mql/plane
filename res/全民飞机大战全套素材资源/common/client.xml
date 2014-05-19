@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!--服务器列表-->
+    <server>
+        <!-->
+        <local>
+            <iapwx>tcp://iapwx.feiji.qq.com:6628</iapwx>
+            <iapmq>tcp://iapqq.feiji.qq.com:6629</iapmq>
+            <noiapwx>tcp://noniapwx.feiji.qq.com:6630</noiapwx>
+            <noiapmq>tcp://noniapqq.feiji.qq.com:6631</noiapmq>
+        </local>
+        <-->
+        <cloud>
+            <url>http://pic.feiji.qq.com/config/release/%platform%/%version%/cloud.xml</url>
+        </cloud>
+    </server>
+    <!--公告链接-->
+    <notice>
+        <url>http://pic.feiji.qq.com/config/release/%platform%/%version%/star_announcement.zip</url>
+    </notice>
+    <!--补丁路径-->
+    <patch>
+        <url>http://pic.feiji.qq.com/config/release/%platform%/%version%/patch.xml</url>
+    </patch>
+</config>
